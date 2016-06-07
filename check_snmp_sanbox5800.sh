@@ -1,7 +1,10 @@
 #!/bin/sh
 
-# 2014-07-03
-# Author: Philipp Posovszk <Philipp.Posovszky@dlr.de/Ph.Posovszky@gmail.com>
+# Origin https://exchange.nagios.org/directory/Plugins/Hardware/Network-Gear/HP/check_snmp_hpv1910/details
+#  2013-02-27 Author: Mads N. Vestergaard <mnv@timmy.dk>
+
+# Modifyed 2016-06-07
+# Author: Philipp Posovszk <Ph.Posovszky@gmail.com>
 #
 # Version: v1.0.0
 
