@@ -2,14 +2,16 @@
 Plugin to monitor several things on the SanBox 5800 (QLogic) switch. 
 
 ## Setup
+Install the packags snmpwalk on your system and copy the script to your icinga plugin folder
 
-1. First you have to enable SNMP on your device to make a snmp request possible
-2. Install the packags snmpwalk on your system
-3. Have fun with the plugin
+## Configuration
+Enable SNMP on your devive. It's recommende to use at lease SNMPv2. You should grant the SNMPv2 user read permissions and no write permissions. 
 
-##Info 
+__Note:__ With SNMPv2 there is no password encryption! 
 
-Default warnig level is 40 and default critical level is 50.
+##Default Values
+* __Warning:__ 40
+* __Ciritcal:__ 50
 
 ##Usage
 
