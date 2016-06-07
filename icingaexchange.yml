@@ -1,0 +1,18 @@
+name: check_snmp_sanbox5800
+description: "file:///README.md"
+url: "https://github.com/hr-jenkins/check_snmp_sanbox5800.git"
+tags: Statistic
+vendor: Linux
+target: Operating System
+type: Plugin
+license: gplv3
+releases: 
+  - 
+    name: 1.0.0
+    description: "1.0.0 Release"
+    files: 
+      - 
+        name: check_snmp_sanbox5800.sh
+        url: "file:///check_snmp_sanbox5800.sh"
+        description: "First release"
+        checksum: c3df4b744b74a632cb641c449c9ef8a6
