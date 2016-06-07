@@ -7,15 +7,16 @@
 
 BASEOID=.1.3.6.1
 
+# Status OID
 statusOID=$BASEOID.3.94.1.8.1.6
-#Commen defined MIB
-locationOID=$BASEOID.2.1.1.6.0
+
+# Overall Status MIB
 locationOID=$BASEOID.2.1.1.6.0
 uptimeOID=$BASEOID.2.1.1.3.0
 
-SensorNr=1
-Warning=35
+Warning=40
 Critical=50
+
 usage()
 {
 	echo "Usage: $0 -H host [-U username -P password]|[-C community] -T status|power|temperatureX (X=1,2,3,4)|uptime|location -w warningValue -c criticalValue"
@@ -24,6 +25,7 @@ usage()
 	echo "		";
 	echo "		Example:";
 	echo "			/check_snmp_sanbox5800.sh -H 10.28.11.12 -T temperature1 -C public -w 40 -c 50 ";
+	echo "			/check_snmp_sanbox5800.sh -H 10.28.11.12 -U user -P secret -T temperature1 -w 40 -c 50 ";
 	exit 0
 }
 
