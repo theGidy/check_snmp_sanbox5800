@@ -23,3 +23,7 @@ Usage: ./check_snmp_sanbox5800.sh -H host [-U username -P password]|[-C communit
                         /check_snmp_sanbox5800.sh -H 10.28.11.12 -U test -P secret -T status
 ```
 
+
+#Note
+
+Forked from https://exchange.nagios.org/directory/Plugins/Hardware/Network-Gear/HP/check_snmp_hpv1910/details 
